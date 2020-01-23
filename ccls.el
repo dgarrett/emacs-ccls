@@ -71,7 +71,6 @@
   nil
   "initializationOptions"
   :group 'ccls)
-(put 'ccls-initialization-options 'safe-local-variable 'listp)
 
 ;; ---------------------------------------------------------------------
 ;;   Other ccls-specific methods
