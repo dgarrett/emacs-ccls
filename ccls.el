@@ -151,7 +151,7 @@ DIRECTION can be \"D\", \"L\", \"R\" or \"U\"."
   :notification-handlers
   (lsp-ht ("$ccls/publishSkippedRanges" #'ccls--publish-skipped-ranges)
           ("$ccls/publishSemanticHighlight" #'ccls--publish-semantic-highlight))
-  :initialization-options (lambda () ccls-initialization-options)
+  :initialization-options ccls-initialization-options
   :library-folders-fn ccls-library-folders-fn))
 
 (provide 'ccls)
